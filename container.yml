@@ -1,0 +1,17 @@
+version: "2"
+settings:
+  conductor_base: centos:7
+
+services:
+  db:
+    from: "mysql:latest"
+    ports:
+      - "13306:3306"
+    environment:
+      MYSQL_MAJOR: 5.7
+      MYSQL_VERSION: 5.7.17
+      MYSQL_DATABASE: sample
+      MYSQL_USER: sample
+      MYSQL_PASSWORD: password
+      MYSQL_ROOT_PASSWORD: password
+registries: {}
