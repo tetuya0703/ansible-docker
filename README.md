@@ -2,7 +2,7 @@
 
 # docker host setting
 ```
-export DOCKER_HOST="tcp://192.168.33.10:2375"
+export DOCKER_HOST="tcp://＊＊＊。＊＊＊。＊＊＊。＊＊＊:2375"
 ```
 
 # firewalld setting
